@@ -10,6 +10,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import com.example.animaltracker.R
 import com.example.animaltracker.databinding.FragmentAnimalListBinding
+import com.example.animaltracker.ui.animalList.recyclerview.AnimalRecyclerViewAdapter
 import com.example.animaltracker.ui.viewmodel.AnimalViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
