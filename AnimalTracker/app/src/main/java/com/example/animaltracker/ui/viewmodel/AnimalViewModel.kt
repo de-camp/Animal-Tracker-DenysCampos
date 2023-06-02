@@ -32,7 +32,7 @@ class AnimalViewModel (private val repository: AnimalRepository): ViewModel(){
         addAnimals(animal)
         clearData()
 
-        status.value = MOVIE_CREATED
+        status.value = ANIMAL_CREATED
     }
 
     private fun validateData(): Boolean {
@@ -52,7 +52,7 @@ class AnimalViewModel (private val repository: AnimalRepository): ViewModel(){
         status.value = INACTIVE
     }
 
-    fun setSelectedMovie(animal: AnimalModel) {
+    fun setSelectedAnimal(animal: AnimalModel) {
         name.value = animal.name
         habitat.value = animal.habitat
     }
@@ -65,7 +65,7 @@ class AnimalViewModel (private val repository: AnimalRepository): ViewModel(){
             }
         }
 
-        const val MOVIE_CREATED = "Movie created"
+        const val ANIMAL_CREATED = "Animal created"
         const val WRONG_INFORMATION = "Wrong information"
         const val INACTIVE = ""
     }

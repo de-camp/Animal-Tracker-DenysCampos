@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/newAnimalFragment"
-        android:name="com.example.animaltracker.ui.newAnimalFragment"
+        android:name="com.example.animaltracker.ui.newanimal.newAnimalFragment"
         android:label="fragment_new_animal"
         tools:layout="@layout/fragment_new_animal" />
     <fragment

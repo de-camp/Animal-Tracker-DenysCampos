@@ -25,9 +25,9 @@
                 android:gravity="center_vertical">
 
                 <ImageView
-                    android:layout_width="125dp"
-                    android:layout_height="105dp"
-                    app:srcCompat = "@drawable/dummyimage"
+                    android:layout_width="105dp"
+                    android:layout_height="80dp"
+                    app:srcCompat = "@drawable/animal_default"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp">
 
